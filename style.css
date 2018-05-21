@@ -193,7 +193,7 @@
   .profile-card{
     height: auto;
     text-align: center;
-    padding: 5vh 21vh;
+    padding: 5vh 30vh;
     font-size: 15px;
   }
 
@@ -252,8 +252,8 @@
   .experience-title{
     width: 50%;
     text-align: right;
-    margin-right: 3vh;
-    padding-right: 3vh;
+    margin-right: 4vh;
+    padding-right: 4vh;
     border-right: 2px solid black;
     font-size: 18px;
   }
@@ -314,6 +314,12 @@
   .skill{
     display: inline-flex;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .skill ul{
+    margin: 0px;
   }
 
   .skill li{
@@ -321,7 +327,7 @@
     padding: 4px 6px;
     margin-bottom: 3px;
     border: 1px solid black;
-    width: 120px;
+    width: 18%;
   }
 
   .skill-title{
