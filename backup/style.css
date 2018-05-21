@@ -1,0 +1,44 @@
+.banner{
+  height: 70vh;
+  background-image: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6726719ee78dabe78033950d9f3f7145&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+
+}
+.eyecatcher{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px;
+
+}
+.eyecatcher p{
+  text-align: justify;
+  font-size: 34px;
+  text-shadow: 1px 1px black;
+  color: white;
+}
+.about{
+  height: auto;
+  background-color: lightgrey;
+
+}
+
+.about-me-title{
+  margin: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.card{
+  background-color: gray;
+  box-shadow: 1px 1px rgba(0,0,0,0.4);
+  margin-top: 20px;
+  height: 30vh;
+}
+
+.sociallinks{
+  background-color: rgba(10,10,10,0.8);
+  text-align: center;
+  text-decoration: none;
+}
