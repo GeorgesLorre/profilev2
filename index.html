@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Profile</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="animations.css">
+  <title>Georges Lorré Online Resume</title>
+
+  <link rel="stylesheet" media="screen and (min-width: 850px)" href="bigscreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 849px)" href="smallscreen.css">
+
+
 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 </head>
 <body>
   <div class="border-box">
@@ -257,26 +262,14 @@
   const brainscroll = document.getElementById('brain-open-list');
   const listitems = document.getElementsByClassName("list-item");
   const offset = brainopen.offsetTop
-  console.log(offset)
-    // const listheight = brainopen.getBoundingClientRect().height
 
-    function updateList(){
-
-      console.log(gears)
-      //console.log(offset - listitems[0].getBoundingClientRect().top )
+  function updateList(){
       gears.forEach(function(gear){
         gear.style.transform = `rotate(${brainscroll.scrollTop}deg)`;
 
       })
-
-      // var HTML = "";
-      // for(i=1; i<itemcount; i++){
-      //   HTML += `<li class="listitem">${i}</li>`
-      // }
-      // console.log(HTML)
-      // list.innerHTML = HTML
-    }
-    function readScrollPos(){
+  }
+  function readScrollPos(){
 
       var scrollpos = window.scrollY
       //console.log(scrollpos)
@@ -286,7 +279,7 @@
       else{
         brainopen.classList.remove("open");
       }
-    }
+  }
 
 
     // document.addEventListener("click", toggleOpen)

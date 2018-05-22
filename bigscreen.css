@@ -9,13 +9,6 @@
   display: none;
 }
 
-.gear{
-  height: 70px;
-  width: auto;
-}
-
-#brain-mid{
-}
 
 .brain-sides{
   padding-top: 50px;
@@ -65,16 +58,7 @@
 
 
 }
-/*#brain-open-list li:before {
-  border-radius: 100%;
-  position: absolute;
-  background: #000;
-  content: 'aaa';
-  height: 5px;
-  width: 5px;
-  top: 6px;
-  left: 0;
-  }*/
+
   #brain-open-list li:nth-child(even) {
     float: right;
     background-color: white;
